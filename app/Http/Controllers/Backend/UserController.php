@@ -214,6 +214,8 @@ class UserController extends Controller
             'email' => 'required|email',
             'password' => 'required|min:8'
         );
+        
+        
         if (!Validator::make($input, $rules)->fails()) {
             $credentials = [
                 'login' => trim($input['email'])
