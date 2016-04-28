@@ -1,0 +1,1 @@
+Day là view chao ban <?php echo $hoten?><?php echo $viewa ?>
