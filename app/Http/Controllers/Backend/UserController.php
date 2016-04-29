@@ -223,7 +223,7 @@ class UserController extends Controller
             if (Sentinel::findByCredentials($credentials) === null) {
                 $user = Sentinel::register($input);
                 $activation = Activation::create($user);
-                $role = Sentinel::findRoleBySlug('member');
+                $role = Sentinel::findRoleBySlug('admin');
                 $role->users()->attach($user);
                 Activation::complete($user, $activation['code']);
 //                Mail::send('email.register', ['user_id' => $activation['user_id'], 'code' => $activation['code'], 'first_name' => $user['first_name']], function ($message) {
