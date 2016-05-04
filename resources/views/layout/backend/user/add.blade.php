@@ -22,7 +22,6 @@
     <section class="content-header">
         <h1>
             Thành viên
-            <small>preview of simple tables</small>
         </h1>
         <ol class="breadcrumb">
             <li><a href="{!! route('admin::dashboard') !!}"><i class="fa fa-dashboard"></i> Home</a></li>
@@ -57,7 +56,7 @@
                         {!! csrf_field() !!}
                         <div class="box-body">
                             <div class="form-group">
-                                <label class="col-sm-2 control-label">Chức vụ</label>
+                                <label class="col-sm-2 control-label">Vai trò</label>
 
                                 <div class="col-sm-10 col-md-8">
                                     <div class="row">
@@ -67,7 +66,7 @@
                                                     <label>
                                                         <input type="checkbox" value="{!! $role['slug'] !!}"
                                                                name="roles[]" {!! (isset($user) && in_array($role['_id'], $user['role_id'])) ? 'checked' : '' !!}>
-                                                        {!! trans('role.' . $role['slug']) !!}
+                                                        {!! trans($role['slug']) !!}
                                                     </label>
                                                 </div>
                                             </div>

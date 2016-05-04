@@ -1,0 +1,15 @@
+<?php
+
+namespace App;
+
+use Illuminate\Database\Eloquent\Model;
+
+class Work extends Model
+{
+    protected $table = "congviec";
+    protected $fillable = [
+        'TenCV', 'Thoigian', 'Loai', 'SoluongSV'
+    ];
+
+    public $timestamps = false;
+}

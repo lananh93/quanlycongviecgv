@@ -14,6 +14,7 @@
 Route::group(['middleware' => ['web']], function () {
 
     Route::get('/', function () {
+
         return view('welcome');
     });
 
@@ -52,10 +53,23 @@ Route::group(['middleware' => ['web']], function () {
             Route::get('/save/{userID?}', ['as' => 'save', 'uses' => 'UserController@save']);
             Route::get('/delete/{userID}', ['as' => 'delete', 'uses' => 'UserController@delete']);
             Route::get('/{userID}', ['as' => 'view', 'uses' => 'UserController@view']);
+            Route::get('/addrule',['as' => 'addrule', 'uses' => 'AdminController@addrule']);
 
         });
 
+        Route::group(['as' => 'media::', 'prefix' => 'media'], function() {
+            Route::get('/', ['as' => 'index', 'uses' => 'MediaController@index']);
+        });
+
     });
+
+    Route::group(['as' => 'work::','prefix' => 'work'], function() {
+        Route::get('/', ['as' => 'addlec', 'uses' => 'WorkController@getAdd']);
+
+        Route::post('/post', ['as' => 'postaddlec', 'uses' => 'WorkController@postAdd']);
+        Route::get('/list',['as' => 'getlist', 'uses' => 'WorkController@getlist']);
+        });
+
 
 });
 
@@ -75,4 +89,10 @@ Route :: get('schema/drop', function(){
 
 Route::get('form/layout', function(){
     return view('form.layout');
-});*/
+});
+Route::get('test', function(){
+    return view('layout.backend.lecturer.work.addlec');
+});
+
+*/
+

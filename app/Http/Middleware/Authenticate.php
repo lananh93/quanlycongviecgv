@@ -4,6 +4,7 @@ namespace App\Http\Middleware;
 
 use Closure;
 use Illuminate\Support\Facades\Auth;
+use Cartalyst\Sentinel\Laravel\Facades\Sentinel;
 
 class Authenticate
 {
@@ -15,16 +16,11 @@ class Authenticate
      * @param  string|null  $guard
      * @return mixed
      */
-    public function handle($request, Closure $next, $guard = null)
+    public function handle($request, Closure $next)
     {
-        if (Auth::guard($guard)->guest()) {
-            if ($request->ajax() || $request->wantsJson()) {
-                return response('Unauthorized.', 401);
-            } else {
-                return redirect()->guest('login');
-            }
+        if (!Sentinel::getUser()) {
+            return redirect()->to('/login');
         }
-
         return $next($request);
     }
 }

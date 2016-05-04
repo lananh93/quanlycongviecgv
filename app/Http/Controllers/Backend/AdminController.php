@@ -15,4 +15,9 @@ class AdminController extends Controller
     {
         return view('layout.backend.master');
     }
+    
+    public function addrule()
+    {
+        return view ('layout.backend.rule.test');
+    }
 }
