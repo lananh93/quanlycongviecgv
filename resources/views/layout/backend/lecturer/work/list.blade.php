@@ -8,40 +8,38 @@
     @endsection()
     @section('content')
 
-                <!-- /.col-lg-12 -->
-                <table class="table table-striped table-bordered table-hover" id="dataTables-example">
-                    <thead>
-                    <tr align="center">
-                        <th>ID</th>
-                        <th>Name</th>
-                        <th>Price</th>
-                        <th>Date</th>
-                        <th>Status</th>
-                        <th>Delete</th>
-                        <th>Edit</th>
-                    </tr>
-                    </thead>
-                    <tbody>
-                    <tr class="odd gradeX" align="center">
-                        <td>1</td>
-                        <td>Áo Thun Nana</td>
-                        <td>200.000 VNĐ</td>
-                        <td>3 Minutes Age</td>
-                        <td>Hiện</td>
-                        <td class="center"><i class="fa fa-trash-o  fa-fw"></i><a href="#"> Delete</a></td>
-                        <td class="center"><i class="fa fa-pencil fa-fw"></i> <a href="#">Edit</a></td>
-                    </tr>
-                    <tr class="even gradeC" align="center">
-                        <td>2</td>
-                        <td>Áo Thun Polo</td>
-                        <td>250.000 VNĐ</td>
-                        <td>1 Hours Age</td>
-                        <td>Ẩn</td>
-                        <td class="center"><i class="fa fa-trash-o  fa-fw"></i><a href="#"> Delete</a></td>
-                        <td class="center"><i class="fa fa-pencil fa-fw"></i> <a href="#">Edit</a></td>
-                    </tr>
-                    </tbody>
-                </table>
+            <!-- /.col-lg-12 -->
+    <table class="table table-striped table-bordered table-hover" id="dataTables-example">
+        <thead>
+        <tr align="center">
+            <th>ID</th>
+            <th>Ten cong viec</th>
+            <th>Loai cong viec</th>
+            <th>Thoi gian</th>
+            <th>So luong sinh vien</th>
+            <th>Delete</th>
+            <th>Edit</th>
+        </tr>
+        </thead>
+        <tbody>
+        <?php $stt =0 ?>
+        @foreach($data as $item)
+            <?php $stt =$stt +1 ?>
+
+            <tr class="odd gradeX" align="center">
+                <td>{!! $stt !!}</td>
+                <td>{!! $item["TenCV"] !!}</td>
+                <td>{!! $item["Loai"] !!}</td>
+                <td>{!! $item["Thoigian"] !!}</td>
+                <td>{!! $item["SoluongSV"] !!}</td>
+                <td class="center"><i class="fa fa-trash-o  fa-fw"></i><a onclick="return xacnhanxoa('Bạn có chắc muốn xóa không?')" href="{!! route('lecturer', $item['id']) !!}"> Delete</a></td>
+                <td class="center"><i class="fa fa-pencil fa-fw"></i> <a href="{!! route('lecturer', $item['id']) !!}">Edit</a></td>
+
+            </tr>
+
+        @endforeach
+        </tbody>
+    </table>
 
 @endsection()
 
