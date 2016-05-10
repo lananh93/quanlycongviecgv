@@ -4226,16 +4226,16 @@ EOT;
 
     1. Definitions
 
-    "Adaptation" means a work based upon the Work, or upon the Work and
+    "Adaptation" means a lecturer based upon the Work, or upon the Work and
     other pre-existing works, such as a translation, adaptation,
-    derivative work, arrangement of music or other alterations of a
-    literary or artistic work, or phonogram or performance and includes
+    derivative lecturer, arrangement of music or other alterations of a
+    literary or artistic lecturer, or phonogram or performance and includes
     cinematographic adaptations or any other form in which the Work may be
     recast, transformed, or adapted including in any form recognizably
-    derived from the original, except that a work that constitutes a
+    derived from the original, except that a lecturer that constitutes a
     Collection will not be considered an Adaptation for the purpose of
     this License. For the avoidance of doubt, where the Work is a musical
-    work, performance or phonogram, the synchronization of the Work in
+    lecturer, performance or phonogram, the synchronization of the Work in
     timed-relation with a moving image ("synching") will be considered an
     Adaptation for the purpose of this License. "Collection" means a
     collection of literary or artistic works, such as encyclopedias and
@@ -4246,7 +4246,7 @@ EOT;
     its entirety in unmodified form along with one or more other
     contributions, each constituting separate and independent works in
     themselves, which together are assembled into a collective whole. A
-    work that constitutes a Collection will not be considered an
+    lecturer that constitutes a Collection will not be considered an
     Adaptation (as defined below) for the purposes of this License.
     "Creative Commons Compatible License" means a license that is listed
     at http://creativecommons.org/compatiblelicenses that has been
@@ -4264,7 +4264,7 @@ EOT;
     Attribution, ShareAlike. "Licensor" means the individual, individuals,
     entity or entities that offer(s) the Work under the terms of this
     License. "Original Author" means, in the case of a literary or
-    artistic work, the individual, individuals, entity or entities who
+    artistic lecturer, the individual, individuals, entity or entities who
     created the Work or if no individual or entity can be identified, the
     publisher; and in addition (i) in the case of a performance the
     actors, singers, musicians, dancers, and other persons who act, sing,
@@ -4273,24 +4273,24 @@ EOT;
     phonogram the producer being the person or legal entity who first
     fixes the sounds of a performance or other sounds; and, (iii) in the
     case of broadcasts, the organization that transmits the broadcast.
-    "Work" means the literary and/or artistic work offered under the terms
+    "Work" means the literary and/or artistic lecturer offered under the terms
     of this License including without limitation any production in the
     literary, scientific and artistic domain, whatever may be the mode or
     form of its expression including digital form, such as a book,
-    pamphlet and other writing; a lecture, address, sermon or other work
-    of the same nature; a dramatic or dramatico-musical work; a
-    choreographic work or entertainment in dumb show; a musical
-    composition with or without words; a cinematographic work to which are
+    pamphlet and other writing; a lecture, address, sermon or other lecturer
+    of the same nature; a dramatic or dramatico-musical lecturer; a
+    choreographic lecturer or entertainment in dumb show; a musical
+    composition with or without words; a cinematographic lecturer to which are
     assimilated works expressed by a process analogous to cinematography;
-    a work of drawing, painting, architecture, sculpture, engraving or
-    lithography; a photographic work to which are assimilated works
-    expressed by a process analogous to photography; a work of applied
-    art; an illustration, map, plan, sketch or three-dimensional work
+    a lecturer of drawing, painting, architecture, sculpture, engraving or
+    lithography; a photographic lecturer to which are assimilated works
+    expressed by a process analogous to photography; a lecturer of applied
+    art; an illustration, map, plan, sketch or three-dimensional lecturer
     relative to geography, topography, architecture or science; a
     performance; a broadcast; a phonogram; a compilation of data to the
-    extent it is protected as a copyrightable work; or a work performed by
+    extent it is protected as a copyrightable lecturer; or a lecturer performed by
     a variety or circus performer to the extent it is not otherwise
-    considered a literary or artistic work. "You" means an individual or
+    considered a literary or artistic lecturer. "You" means an individual or
     entity exercising rights under this License who has not previously
     violated the terms of this License with respect to the Work, or who
     has received express permission from the Licensor to exercise rights
@@ -4325,9 +4325,9 @@ EOT;
     such Adaptation, including any translation in any medium, takes
     reasonable steps to clearly label, demarcate or otherwise identify
     that changes were made to the original Work. For example, a
-    translation could be marked "The original work was translated from
+    translation could be marked "The original lecturer was translated from
     English to Spanish," or a modification could indicate "The original
-    work has been modified."; to Distribute and Publicly Perform the Work
+    lecturer has been modified."; to Distribute and Publicly Perform the Work
     including as incorporated in Collections; and, to Distribute and
     Publicly Perform Adaptations. For the avoidance of doubt:
 

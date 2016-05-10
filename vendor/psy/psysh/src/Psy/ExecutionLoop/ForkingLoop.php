@@ -67,7 +67,7 @@ class ForkingLoop extends Loop
             return;
         }
 
-        // This is the child process. It's going to do all the work.
+        // This is the child process. It's going to do all the lecturer.
         if (function_exists('setproctitle')) {
             setproctitle('psysh (loop)');
         }

@@ -939,7 +939,7 @@ class ProcessTest extends \PHPUnit_Framework_TestCase
     public function testWrongSignal($signal)
     {
         if ('\\' === DIRECTORY_SEPARATOR) {
-            $this->markTestSkipped('POSIX signals do not work on Windows');
+            $this->markTestSkipped('POSIX signals do not lecturer on Windows');
         }
 
         $process = $this->getProcess(self::$phpBin.' -r "sleep(38);"');

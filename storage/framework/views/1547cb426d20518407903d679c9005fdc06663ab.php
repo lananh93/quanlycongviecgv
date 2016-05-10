@@ -7,22 +7,25 @@
     <title>Trang giảng viên</title>
 
     <!-- Bootstrap Core CSS -->
-    <link href="admin/bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="<?php echo e(url ('/example/bower_components/bootstrap/dist/css/bootstrap.min.css')); ?>" rel="stylesheet">
 
     <!-- MetisMenu CSS -->
-    <link href="admin/bower_components/metisMenu/dist/metisMenu.min.css" rel="stylesheet">
+    <link href="<?php echo e(url ('/example/bower_components/metisMenu/dist/metisMenu.min.css')); ?>" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="admin/dist/css/sb-admin-2.css" rel="stylesheet">
+    <link href="<?php echo e(url ('/example/dist/css/sb-admin-2.css')); ?>" rel="stylesheet">
 
     <!-- Custom Fonts -->
-    <link href="admin/bower_components/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="<?php echo e(url ('/example/bower_components/font-awesome/css/font-awesome.min.css')); ?>" rel="stylesheet"
+          type="text/css">
 
     <!-- DataTables CSS -->
-    <link href="admin/bower_components/datatables-plugins/integration/bootstrap/3/dataTables.bootstrap.css" rel="stylesheet">
+    <link href="<?php echo e(url ('/example/bower_components/datatables-plugins/integration/bootstrap/3/dataTables.bootstrap.css ')); ?>"
+          rel="stylesheet">
 
     <!-- DataTables Responsive CSS -->
-    <link href="admin/bower_components/datatables-responsive/css/dataTables.responsive.css" rel="stylesheet">
+    <link href="<?php echo e(url ('/example/bower_components/datatables-responsive/css/dataTables.responsive.css')); ?>"
+          rel="stylesheet">
 </head>
 
 <body>
@@ -46,7 +49,7 @@
             <!-- /.dropdown -->
             <li class="dropdown">
                 <a class="dropdown-toggle" data-toggle="dropdown" href="#">
-                    <i class="fa fa-user fa-fw"></i>  <i class="fa fa-caret-down"></i>
+                    <i class="fa fa-user fa-fw"></i> <i class="fa fa-caret-down"></i>
                 </a>
                 <ul class="dropdown-menu dropdown-user">
                     <li><a href="#"><i class="fa fa-user fa-fw"></i> User Profile</a>
@@ -78,16 +81,28 @@
                         <!-- /input-group -->
                     </li>
                     <li>
-                        <a href="#"><i class="fa fa-dashboard fa-fw"></i> Bảng tin</a>
+                        <a href="<?php echo route('news'); ?>"><i class="fa fa-dashboard fa-fw"></i> Bảng tin</a>
                     </li>
                     <li>
-                        <a href="#"><i class="fa fa-bar-chart-o fa-fw"></i> Công việc<span class="fa arrow"></span></a>
+                        <a href="#"><i class="fa fa-bar-chart-o fa-fw"></i> Giảng dạy<span class="fa arrow"></span></a>
                         <ul class="nav nav-second-level">
                             <li>
-                                <a href="<?php echo route('work::getlist'); ?>">Danh sách công việc</a>
+                                <a href="<?php echo route('work::getlist'); ?>">Danh sách công việc giảng dạy</a>
                             </li>
                             <li>
-                                <a href="<?php echo route('work::addlec'); ?>">Thêm công việc</a>
+                                <a href="<?php echo route('work::addlec'); ?>">Thêm công việc giảng dạy</a>
+                            </li>
+                        </ul>
+                        <!-- /.nav-second-level -->
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa fa-bar-chart-o fa-fw"></i> Nghiên cứu khoa học <span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level">
+                            <li>
+                                <a href="<?php echo route('science::getlist'); ?>">Danh sách công việc nghiên cứu khoa học</a>
+                            </li>
+                            <li>
+                                <a href="<?php echo route('science::addscience'); ?>">Thêm công việc nghiên cứu khoa học</a>
                             </li>
                         </ul>
                         <!-- /.nav-second-level -->
@@ -105,7 +120,8 @@
                         <!-- /.nav-second-level -->
                     </li>
                     <li>
-                        <a href="#"><i class="fa fa-users fa-fw"></i> Tài khoản cá nhân<span class="fa arrow"></span></a>
+                        <a href="#"><i class="fa fa-users fa-fw"></i> Tài khoản cá nhân<span
+                                    class="fa arrow"></span></a>
                         <ul class="nav nav-second-level">
                             <li>
                                 <a href="#">Chỉnh sửa thông tin</a>
@@ -125,46 +141,52 @@
     <div id="page-wrapper">
         <div class="container-fluid">
             <div class="row">
-                <?php echo $__env->yieldContent('title'); ?>;
-                <!-- /.col-lg-12 -->
-                <!-- Đây là nội dung --!>
+                <?php echo $__env->yieldContent('title'); ?>
+                        <!-- /.col-lg-12 -->
+                <div class="col-lg-12">
+                    <?php if(Session::has('flash_message')): ?>
+                        <div class=" alert alert-<?php echo Session::get('flash_level'); ?> ">
+                        <?php echo Session::get('flash_message'); ?>
+
+                </div>
+                <?php endif; ?>
+
+
+        </div>
+        <!-- Đây là nội dung --!>
                 <?php echo $__env->yieldContent('content'); ?>
                 <!-- End Đây là nội dung --!>
 
             <!-- /.row -->
-            </div>
-        </div>
-        <!-- /.container-fluid -->
     </div>
-    <!-- /#page-wrapper -->
+</div>
+<!-- /.container-fluid -->
+</div>
+<!-- /#page-wrapper -->
 
 </div>
 <!-- /#wrapper -->
 
 <!-- jQuery -->
-<script src="admin/bower_components/jquery/dist/jquery.min.js"></script>
+<script src="<?php echo e(url('/example/bower_components/jquery/dist/jquery.min.js')); ?>"></script>
 
 <!-- Bootstrap Core JavaScript -->
-<script src="admin/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="<?php echo e(url('/example/bower_components/bootstrap/dist/js/bootstrap.min.js')); ?>"></script>
 
 <!-- Metis Menu Plugin JavaScript -->
-<script src="admin/bower_components/metisMenu/dist/metisMenu.min.js"></script>
+<script src="<?php echo e(url('/example/bower_components/metisMenu/dist/metisMenu.min.js')); ?>"></script>
 
 <!-- Custom Theme JavaScript -->
-<script src="admin/dist/js/sb-admin-2.js"></script>
+<script src="<?php echo e(url('/admin/dist/js/sb-admin-2.js')); ?>"></script>
 
 <!-- DataTables JavaScript -->
-<script src="admin/bower_components/DataTables/media/js/jquery.dataTables.min.js"></script>
-<script src="admin/bower_components/datatables-plugins/integration/bootstrap/3/dataTables.bootstrap.min.js"></script>
-
+<script src="<?php echo e(url('/example/bower_components/DataTables/media/js/jquery.dataTables.min.js')); ?>"></script>
+<script src="<?php echo e(url('/example/bower_components/datatables-plugins/integration/bootstrap/3/dataTables.bootstrap.min.js')); ?>"></script>
+<!-- My script-->
+<script src="<?php echo e(url('/example/js/myscript.js')); ?>"></script>
 <!-- Page-Level Demo Scripts - Tables - Use for reference -->
-<script>
-    $(document).ready(function() {
-        $('#dataTables-example').DataTable({
-            responsive: true
-        });
-    });
-</script>
+
+<script src="<?php echo e(url('/js/calender.js')); ?>"></script>
 </body>
 
 </html>

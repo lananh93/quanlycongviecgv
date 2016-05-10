@@ -1076,7 +1076,7 @@ KeyTable = function ( oInit )
 						_fnSetFocus( _fnCellFromCoords( oInit.focus[0], oInit.focus[1]), oInit.initScroll );
 					}
 
-					/* Need to interup the thread for this to work */
+					/* Need to interup the thread for this to lecturer */
 					setTimeout( function() { _nInput.blur(); }, 0 );
 				}
 			} );

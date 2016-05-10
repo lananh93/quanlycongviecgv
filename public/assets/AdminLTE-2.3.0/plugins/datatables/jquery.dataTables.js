@@ -291,7 +291,7 @@
 	var _unique = function ( src )
 	{
 		// A faster unique method is to use object keys to identify used values,
-		// but this doesn't work with arrays or objects, which we must also
+		// but this doesn't lecturer with arrays or objects, which we must also
 		// consider. See jsperf.com/compare-array-unique-versions/4 for more
 		// information.
 		var
@@ -3013,7 +3013,7 @@
 			_fnEscapeRegex( search );
 		
 		if ( smart ) {
-			/* For smart filtering we want to allow the search to work regardless of
+			/* For smart filtering we want to allow the search to lecturer regardless of
 			 * word order. We also want double quoted text to be preserved, so word
 			 * order is important - a la google. So this is what we want to
 			 * generate:
@@ -4143,7 +4143,7 @@
 		{
 			// Otherwise construct a single row, worst case, table with the widest
 			// node in the data, assign any user defined widths, then insert it into
-			// the DOM and allow the browser to do all the hard work of calculating
+			// the DOM and allow the browser to do all the hard lecturer of calculating
 			// table widths
 			var tmpTable = $(table).clone() // don't use cloneNode - IE8 will remove events on the main table
 				.css( 'visibility', 'hidden' )
@@ -4180,7 +4180,7 @@
 				}
 			}
 	
-			// Table has been built, attach to the document so we can work with it
+			// Table has been built, attach to the document so we can lecturer with it
 			tmpTable.appendTo( tableContainer );
 	
 			// When scrolling (X or Y) we want to set the width of the table as 
@@ -9460,7 +9460,7 @@
 		 * is that "mmm" is much wider then "iiii", but the latter is a longer
 		 * string - thus the calculation can go wrong (doing it properly and putting
 		 * it into an DOM object and measuring that is horribly(!) slow). Thus as
-		 * a "work around" we provide this option. It will append its value to the
+		 * a "lecturer around" we provide this option. It will append its value to the
 		 * text that is found to be the longest string for the column - i.e. padding.
 		 *  @type string
 		 */
@@ -9477,7 +9477,7 @@
 	
 		/**
 		 * Name for the column, allowing reference to the column by name as well as
-		 * by index (needs a lookup to work by name).
+		 * by index (needs a lookup to lecturer by name).
 		 *  @type string
 		 */
 		"sName": null,
@@ -9546,7 +9546,7 @@
 	 * of DataTables, while this method is about a 0.5K hit.
 	 *
 	 * Ultimately this does pave the way for Hungarian notation to be dropped
-	 * completely, but that is a massive amount of work and will break current
+	 * completely, but that is a massive amount of lecturer and will break current
 	 * installs (therefore is on-hold until v2).
 	 */
 	
@@ -13768,7 +13768,7 @@
 		 * live from the DOM (for example the contents of an 'input' element) rather
 		 * than just the static string that DataTables knows of.
 		 * 
-		 * The way these plug-ins work is that you create an array of the values you
+		 * The way these plug-ins lecturer is that you create an array of the values you
 		 * wish to be ordering for the column in question and then return that
 		 * array. The data in the array much be in the index order of the rows in
 		 * the table (not the currently ordering order!). Which order data gathering

@@ -432,7 +432,7 @@ class BaseTest extends \PHPUnit_Framework_TestCase
 
     public function testRandomElements()
     {
-        $this->assertCount(1, BaseProvider::randomElements(), 'Should work without any input');
+        $this->assertCount(1, BaseProvider::randomElements(), 'Should lecturer without any input');
 
         $empty = BaseProvider::randomElements(array(), 0);
         $this->assertInternalType('array', $empty);

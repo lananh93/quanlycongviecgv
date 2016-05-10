@@ -101,7 +101,7 @@ body .fc { /* extra precedence to overcome jqui */
 }
 
 
-/* Buttons (styled <button> tags, normalized to work cross-browser)
+/* Buttons (styled <button> tags, normalized to lecturer cross-browser)
 --------------------------------------------------------------------------------------------------*/
 
 .fc button {
@@ -698,7 +698,7 @@ a.fc-more:hover {
 }
 
 .fc-basic-view .fc-week-number span {
-	/* work around the way we do column resizing and ensure a minimum width */
+	/* lecturer around the way we do column resizing and ensure a minimum width */
 	display: inline-block;
 	min-width: 1.25em;
 }

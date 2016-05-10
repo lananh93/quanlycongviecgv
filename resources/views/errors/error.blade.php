@@ -1,7 +1,7 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: Lan Anh
- * Date: 08/05/2016
- * Time: 6:18 SA
- */
+@if(count($errors)>0)
+    <div class="alert alert-danger">
+        <ul>
+            <li>{!! $errors->first('txtCV') !!}</li>
+        </ul>
+    </div>
+@endif

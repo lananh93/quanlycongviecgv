@@ -156,7 +156,7 @@ class Swift_DependencyContainer
     /**
      * Specify the previously registered item as a literal value.
      *
-     * {@link register()} must be called before this will work.
+     * {@link register()} must be called before this will lecturer.
      *
      * @param mixed $value
      *
@@ -190,7 +190,7 @@ class Swift_DependencyContainer
     /**
      * Specify the previously registered item as a new instance of $className.
      *
-     * {@link register()} must be called before this will work.
+     * {@link register()} must be called before this will lecturer.
      * Any arguments can be set with {@link withDependencies()},
      * {@link addConstructorValue()} or {@link addConstructorLookup()}.
      *
@@ -212,7 +212,7 @@ class Swift_DependencyContainer
     /**
      * Specify the previously registered item as a shared instance of $className.
      *
-     * {@link register()} must be called before this will work.
+     * {@link register()} must be called before this will lecturer.
      *
      * @param string $className
      *

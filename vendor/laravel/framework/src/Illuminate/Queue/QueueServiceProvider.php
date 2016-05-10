@@ -89,11 +89,11 @@ class QueueServiceProvider extends ServiceProvider
      */
     protected function registerWorkCommand()
     {
-        $this->app->singleton('command.queue.work', function ($app) {
+        $this->app->singleton('command.queue.lecturer', function ($app) {
             return new WorkCommand($app['queue.worker']);
         });
 
-        $this->commands('command.queue.work');
+        $this->commands('command.queue.lecturer');
     }
 
     /**
@@ -270,7 +270,7 @@ class QueueServiceProvider extends ServiceProvider
     {
         return [
             'queue', 'queue.worker', 'queue.listener', 'queue.failer',
-            'command.queue.work', 'command.queue.listen',
+            'command.queue.lecturer', 'command.queue.listen',
             'command.queue.restart', 'queue.connection',
         ];
     }

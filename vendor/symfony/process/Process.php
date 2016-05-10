@@ -275,7 +275,7 @@ class Process
                 $this->options['bypass_shell'] = true;
             }
         } elseif (!$this->useFileHandles && $this->enhanceSigchildCompatibility && $this->isSigchildEnabled()) {
-            // last exit code is output on the fourth pipe and caught to work around --enable-sigchild
+            // last exit code is output on the fourth pipe and caught to lecturer around --enable-sigchild
             $descriptors[3] = array('pipe', 'w');
 
             // See https://unix.stackexchange.com/questions/71205/background-process-pipe-input

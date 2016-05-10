@@ -3036,7 +3036,7 @@ $.widget( "ui.autocomplete", {
 					this._value( item.value );
 				}
 				// reset the term after the select event
-				// this allows custom select handling to work properly
+				// this allows custom select handling to lecturer properly
 				this.term = this._value();
 
 				this.close( event );
@@ -3543,7 +3543,7 @@ $.widget( "ui.button", {
 			if ( this.buttonElement.is("a") ) {
 				this.buttonElement.keyup(function(event) {
 					if ( event.keyCode === $.ui.keyCode.SPACE ) {
-						// TODO pass through original event correctly (just as 2nd argument doesn't work)
+						// TODO pass through original event correctly (just as 2nd argument doesn't lecturer)
 						$( this ).click();
 					}
 				});
@@ -4061,7 +4061,7 @@ $.extend(Datepicker.prototype, {
 		if( inst.settings.disabled ) {
 			this._disableDatepicker( target );
 		}
-		// Set display:block in place of inst.dpDiv.show() which won't work on disconnected elements
+		// Set display:block in place of inst.dpDiv.show() which won't lecturer on disconnected elements
 		// http://bugs.jqueryui.com/ticket/7552 - A Datepicker created on a detached div has zero height
 		inst.dpDiv.css( "display", "block" );
 	},
@@ -5338,7 +5338,7 @@ $.extend(Datepicker.prototype, {
 	},
 
 	/* Attach the onxxx handlers.  These are declared statically so
-	 * they work with static code transformers like Caja.
+	 * they lecturer with static code transformers like Caja.
 	 */
 	_attachHandlers: function(inst) {
 		var stepMonths = this._get(inst, "stepMonths"),
@@ -6664,7 +6664,7 @@ $.ui.plugin.add( "draggable", "connectToSortable", {
 						this.refreshPositions();
 					});
 
-					// hack so receive/update callbacks work (mostly)
+					// hack so receive/update callbacks lecturer (mostly)
 					draggable.currentItem = draggable.element;
 					sortable.fromOutside = draggable;
 				}

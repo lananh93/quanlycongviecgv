@@ -1,7 +1,7 @@
 @extends('layout.backend.lecturer.master')
 @section('title')
     <div class="col-lg-12">
-        <h1 class="page-header">Công việc
+        <h1 class="page-header">Giảng dạy
             <small>Thêm mới</small>
         </h1>
     </div>
@@ -9,36 +9,37 @@
 @section('content')
     <div class="col-lg-7" style="padding-bottom:120px">
         @include('errors.error')
-        <form action="{!! route('lecturer') !!}" method="POST">
+        <form action="{!! route('work::postaddlec') !!}" method="POST">
             <input type="hidden" name="_token" value="{!! csrf_token() !!}"/>
-            <div class="form-group">
 
-                <label>Tên công việc</label>
+            <div class="form-group">
+                <label>Tên công việc giảng dạy</label>
                 <input class="form-control" id="txtCV" name="txtCV" placeholder="Nhập tên công việc"/>
-
-
-            </div>
-            <div class="form-group">
-                <label>Loại công việc</label>
-                <label class="radio-inline">
-                    <input name="rdoLevel" value="1" checked="" type="radio">Giảng dạy
-                </label>
-                <label class="radio-inline">
-                    <input name="rdoLevel" value="2" type="radio">Nghiên cứu khoa học
-                </label>
-                <label class="radio-inline">
-                    <input name="rdoLevel" value="3" type="radio">Khác
-                </label>
             </div>
 
             <div class="form-group">
-                <label>Thời gian</label>
-                <input class="form-control" name="txtTG"/>
+                <label>Mã môn học</label>
+                <input class="form-control" id="txtMH" name="txtMH" placeholder="Nhập mã môn học"/>
             </div>
 
             <div class="form-group">
-                <label>Số lượng sinh viên</label>
-                <input class="form-control" name="txtSL"/>
+                <label>Thời gian bắt đầu</label>
+                <input class="form-control" type='date' name="tgBD"/>
+            </div>
+
+            <div class="form-group">
+                <label>Thời gian kết thúc</label>
+                <input class="form-control" type='date' name="tgKT"/>
+            </div>
+
+            <div class="form-group">
+                <label>Trạng thái</label>
+                <label class="radio-inline">
+                    <input name="rdoLevel" value="Mở" checked="" type="radio">Mở
+                </label>
+                <label class="radio-inline">
+                    <input name="rdoLevel" value="Hoàn thành" type="radio">Hoàn thành
+                </label>
             </div>
 
             <button type="submit" class="btn btn-default">Thêm công việc</button>

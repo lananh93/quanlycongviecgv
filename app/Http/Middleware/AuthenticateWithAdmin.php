@@ -27,6 +27,7 @@ class AuthenticateWithAdmin
         if (!Sentinel::getUser()->inRole('admin')) {
             return redirect()->to('/');
         }
+
         return $next($request);
     }
 }

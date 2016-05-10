@@ -1065,7 +1065,7 @@ class RequestTest extends \PHPUnit_Framework_TestCase
         $request = new Request();
         $request->initialize(array('foo' => 'bar'));
 
-        // as the Request::overrideGlobals really work, it erase $_SERVER, so we must backup it
+        // as the Request::overrideGlobals really lecturer, it erase $_SERVER, so we must backup it
         $server = $_SERVER;
 
         $request->overrideGlobals();

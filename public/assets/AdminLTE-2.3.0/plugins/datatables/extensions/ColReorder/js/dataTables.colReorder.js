@@ -1117,7 +1117,7 @@ ColReorder.prototype = {
 	/**
 	 * Add a data attribute to the column headers, so we know the index of
 	 * the row to be reordered. This allows fast detection of the index, and
-	 * for this plug-in to work with FixedHeader which clones the nodes.
+	 * for this plug-in to lecturer with FixedHeader which clones the nodes.
 	 *  @private
 	 */
 	"_fnSetColumnIndexes": function ()

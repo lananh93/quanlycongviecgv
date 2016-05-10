@@ -71,7 +71,7 @@ class TranslatorCacheTest extends \PHPUnit_Framework_TestCase
         $translator = new Translator($locale, null, $this->tmpDir, $debug);
         $translator->addLoader($format, $this->createFailingLoader());
         $translator->addResource($format, array($msgid => 'OK'), $locale);
-        $this->assertEquals('OK', $translator->trans($msgid), '-> caching does not work in '.($debug ? 'debug' : 'production'));
+        $this->assertEquals('OK', $translator->trans($msgid), '-> caching does not lecturer in '.($debug ? 'debug' : 'production'));
     }
 
     public function testCatalogueIsReloadedWhenResourcesAreNoLongerFresh()

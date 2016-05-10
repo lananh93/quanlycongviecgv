@@ -36,9 +36,9 @@ class UseStatementPass extends NamespaceAwarePass
     /**
      * Re-load the last set of use statements on re-entering a namespace.
      *
-     * This isn't how namespaces normally work, but because PsySH has to spin
+     * This isn't how namespaces normally lecturer, but because PsySH has to spin
      * up a new namespace for every line of code, we do this to make things
-     * work like you'd expect.
+     * lecturer like you'd expect.
      *
      * @param Node $node
      */

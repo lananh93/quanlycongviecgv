@@ -64,14 +64,56 @@ Route::group(['middleware' => ['web']], function () {
     });
 
     Route::group(['as' => 'work::','prefix' => 'work'], function() {
-        Route::get('/', ['as' => 'addlec', 'uses' => 'WorkController@getAdd']);
+        Route::get('/add', ['as' => 'addlec', 'uses' => 'WorkController@getAdd']);
 
         Route::post('/post', ['as' => 'postaddlec', 'uses' => 'WorkController@postAdd']);
         Route::get('/list',['as' => 'getlist', 'uses' => 'WorkController@getlist']);
+        Route::get('/delete/{id}',['as' => 'deletelist', 'uses' => 'WorkController@getDelete']);
+        Route::get('/edit/{id}',['as' => 'editlist', 'uses' => 'WorkController@getEdit']);
+        Route::post('/edit/{id}',['as' => 'editpostlist', 'uses' => 'WorkController@postEdit']);
         });
+
+    Route::group(['as' => 'science::','prefix' => 'science'], function() {
+        Route::get('/add', ['as' => 'addscience', 'uses' => 'ScienceController@getAdd']);
+
+        Route::post('/post', ['as' => 'postscience', 'uses' => 'ScienceController@postAdd']);
+        Route::get('/list',['as' => 'getlist', 'uses' => 'ScienceController@getlist']);
+        Route::get('/delete/{id}',['as' => 'deletelist', 'uses' => 'ScienceController@getDelete']);
+        Route::get('/edit/{id}',['as' => 'editlist', 'uses' => 'ScienceController@getEdit']);
+        Route::post('/edit/{id}',['as' => 'editpostlist', 'uses' => 'ScienceController@postEdit']);
+    });
+
+    Route::get('/news',['as'=>'news','uses'=> function(){
+        return view('layout.backend.lecturer.new');
+    }]);
 
 
 });
+/*Route::get('/construct', function() {
+    Sentinel::getRoleRepository()->createModel()->create([
+        'name' => 'Admin',
+        'slug' => 'admin',
+    ]);
+
+    Sentinel::getRoleRepository()->createModel()->create([
+        'name' => 'Member',
+        'slug' => 'member',
+    ]);
+    $credentials = [
+        'email'    => 'admin@gmail.com',
+        'password' => '123456789',
+        'first_name' => 'Anh',
+        'last_name' => 'Nguyễn Lan',
+    ];
+    $user = Sentinel::register($credentials);
+    $activation = Activation::create($user);
+    Activation::complete($user, $activation['code']);
+
+    $role = Sentinel::findRoleBySlug('admin');
+    $role->users()->attach($user);
+
+});*/
+
 
 /*Route :: get('schema/create', function(){
     Schema::create('admin', function($table){
@@ -91,7 +133,7 @@ Route::get('form/layout', function(){
     return view('form.layout');
 });
 Route::get('test', function(){
-    return view('layout.backend.lecturer.work.addlec');
+    return view('layout.backend.lecturer.lecturer.addlec');
 });
 
 */

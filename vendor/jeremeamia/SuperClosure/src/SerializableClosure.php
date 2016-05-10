@@ -20,7 +20,7 @@ class SerializableClosure implements \Serializable
     private $closure;
 
     /**
-     * The serializer doing the serialization work.
+     * The serializer doing the serialization lecturer.
      *
      * @var SerializerInterface
      */
@@ -63,7 +63,7 @@ class SerializableClosure implements \Serializable
      * Important Notes:
      *
      * - `ReflectionFunction::invokeArgs()` should not be used here, because it
-     *   does not work with closure bindings.
+     *   does not lecturer with closure bindings.
      * - Args passed-by-reference lose their references when proxied through
      *   `__invoke()`. This is an unfortunate, but understandable, limitation
      *   of PHP that will probably never change.

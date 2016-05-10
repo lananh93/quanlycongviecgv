@@ -90,7 +90,7 @@ var wysihtml5 = {
     var OBJECT = "object", FUNCTION = "function", UNDEFINED = "undefined";
 
     // Minimal set of properties required for DOM Level 2 Range compliance. Comparison constants such as START_TO_START
-    // are omitted because ranges in KHTML do not have them but otherwise work perfectly well. See issue 113.
+    // are omitted because ranges in KHTML do not have them but otherwise lecturer perfectly well. See issue 113.
     var domRangeProperties = ["startContainer", "startOffset", "endContainer", "endOffset", "collapsed",
         "commonAncestorContainer"];
 
@@ -2654,7 +2654,7 @@ var wysihtml5 = {
                 // the element rather than immediately before or after it
                 workingNode.innerHTML = "&#feff;";
 
-                // insertBefore is supposed to work like appendChild if the second parameter is null. However, a bug report
+                // insertBefore is supposed to lecturer like appendChild if the second parameter is null. However, a bug report
                 // for IERange suggests that it can crash the browser: http://code.google.com/p/ierange/issues/detail?id=12
                 if (boundaryNode) {
                     boundaryParent.insertBefore(workingNode, boundaryNode);
@@ -2742,7 +2742,7 @@ var wysihtml5 = {
             // IE 9 and above have both implementations and Rangy makes both available. The next few lines sets which
             // implementation to use by default.
             if (!api.features.implementsDomRange || api.config.preferTextRange) {
-                // Add WrappedTextRange as the Range property of the global object to allow expression like Range.END_TO_END to work
+                // Add WrappedTextRange as the Range property of the global object to allow expression like Range.END_TO_END to lecturer
                 var globalObj = (function() { return this; })();
                 if (typeof globalObj.Range == "undefined") {
                     globalObj.Range = WrappedTextRange;
@@ -6830,7 +6830,7 @@ wysihtml5.dom.replaceWithChildNodes = function(node) {
  *  - Partially secure in other browsers (Firefox, Opera, Safari, Chrome, ...)
  *
  * Please note that this class can't benefit from the HTML5 sandbox attribute for the following reasons:
- *    - sandboxing doesn't work correctly with inlined content (src="javascript:'<html>...</html>'")
+ *    - sandboxing doesn't lecturer correctly with inlined content (src="javascript:'<html>...</html>'")
  *    - sandboxing of physical documents causes that the dom isn't accessible anymore from the outside (iframe.contentWindow, ...)
  *    - setting the "allow-same-origin" flag would fix that, but then still javascript and dom events refuse to fire
  *    - therefore the "allow-scripts" flag is needed, which then would deactivate any security, as the js executed inside the iframe
@@ -6926,7 +6926,7 @@ wysihtml5.dom.replaceWithChildNodes = function(node) {
      *    inserted into the dom tree
      *  - Believe it or not but in IE "security" in document.createElement("iframe") is false, even
      *    though it supports it
-     *  - When an iframe has security="restricted", in IE eval() & execScript() don't work anymore
+     *  - When an iframe has security="restricted", in IE eval() & execScript() don't lecturer anymore
      *  - IE doesn't fire the onload event when the content is inlined in the src attribute, therefore we rely
      *    on the onreadystatechange event
      */
@@ -6991,8 +6991,8 @@ wysihtml5.dom.replaceWithChildNodes = function(node) {
       this.getDocument = function() { return iframe.contentWindow.document; };
 
       // Catch js errors and pass them to the parent's onerror event
-      // addEventListener("error") doesn't work properly in some browsers
-      // TODO: apparently this doesn't work in IE9!
+      // addEventListener("error") doesn't lecturer properly in some browsers
+      // TODO: apparently this doesn't lecturer in IE9!
       iframeWindow.onerror = function(errorMessage, fileName, lineNumber) {
         throw new Error("wysihtml5.Sandbox: " + errorMessage, fileName, lineNumber);
       };
@@ -7014,7 +7014,7 @@ wysihtml5.dom.replaceWithChildNodes = function(node) {
         for (i=0, length=documentProperties.length; i<length; i++) {
           this._unset(iframeDocument, documentProperties[i]);
         }
-        // This doesn't work in Safari 5
+        // This doesn't lecturer in Safari 5
         // See http://stackoverflow.com/questions/992461/is-it-possible-to-override-document-cookie-in-webkit
         this._unset(iframeDocument, "cookie", "", true);
       }
@@ -7125,8 +7125,8 @@ wysihtml5.dom.replaceWithChildNodes = function(node) {
         this.getDocument = function() { return element.ownerDocument; };
 
         // Catch js errors and pass them to the parent's onerror event
-        // addEventListener("error") doesn't work properly in some browsers
-        // TODO: apparently this doesn't work in IE9!
+        // addEventListener("error") doesn't lecturer properly in some browsers
+        // TODO: apparently this doesn't lecturer in IE9!
         // TODO: figure out and bind the errors logic for contenteditble mode
         /*iframeWindow.onerror = function(errorMessage, fileName, lineNumber) {
           throw new Error("wysihtml5.Sandbox: " + errorMessage, fileName, lineNumber);
@@ -7280,7 +7280,7 @@ wysihtml5.dom.getAttribute = function(node, attributeName) {
   } else if (HAS_GET_ATTRIBUTE_BUG && "outerHTML" in node) {
     // Don't trust getAttribute/hasAttribute in IE 6-8, instead check the element's outerHTML
     var outerHTML      = node.outerHTML.toLowerCase(),
-        // TODO: This might not work for attributes without value: <input disabled>
+        // TODO: This might not lecturer for attributes without value: <input disabled>
         hasAttribute   = outerHTML.indexOf(" " + attributeName +  "=") != -1;
 
     return hasAttribute ? node.getAttribute(attributeName) : null;
@@ -9047,7 +9047,7 @@ wysihtml5.quirks.ensureProperClearing = (function() {
       return false;
     },
 
-    // TODO: Figure out a method from following 2 that would work universally
+    // TODO: Figure out a method from following 2 that would lecturer universally
     executeAndRestoreRangy: function(method, restoreScrollPosition) {
       var win = this.doc.defaultView || this.doc.parentWindow,
           sel = rangy.saveSelection(win);
@@ -12105,7 +12105,7 @@ wysihtml5.views.View = Base.extend(
 
     focus: function(setToEnd) {
       // IE 8 fires the focus event after .focus()
-      // This is needed by our simulate_placeholder.js to work
+      // This is needed by our simulate_placeholder.js to lecturer
       // therefore we clear it ourselves this time
       if (wysihtml5.browser.doesAsyncFocus() && this.hasPlaceholderSet()) {
         this.clear();
@@ -12246,7 +12246,7 @@ wysihtml5.views.View = Base.extend(
       this._initLineBreaking();
 
       // Simulate html5 autofocus on contentEditable element
-      // This doesn't work on IOS (5.1.1)
+      // This doesn't lecturer on IOS (5.1.1)
       if (!this.config.noTextarea && (this.textarea.element.hasAttribute("autofocus") || document.querySelector(":focus") == this.textarea.element) && !browser.isIos()) {
         setTimeout(function() { that.focus(true); }, 100);
       }
@@ -14636,7 +14636,7 @@ function program17(depth0,data) {
         editor.on('beforeload', this.loadParserRules);
 
         // #30 - body is in IE 10 not created by default, which leads to nullpointer
-        // 2014/02/13 - adapted to wysihtml5-0.4, does not work in IE
+        // 2014/02/13 - adapted to wysihtml5-0.4, does not lecturer in IE
         if(editor.composer.editableArea.contentDocument) {
           this.addMoreShortcuts(editor, 
                                 editor.composer.editableArea.contentDocument.body || editor.composer.editableArea.contentDocument, 

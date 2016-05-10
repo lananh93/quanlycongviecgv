@@ -71,7 +71,7 @@ class Swift_Signers_DomainKeySigner implements Swift_Signers_HeaderSigner
      */
     protected $_debugHeaders = false;
 
-    // work variables
+    // lecturer variables
     /**
      * Headers used to generate hash.
      *

@@ -18,7 +18,8 @@ class CreateCongviecTable extends Migration
             $table->string('Loai');
             $table->integer('Thoigian');
             $table->integer('SoluongSV');
-            $table->timestamps('');
+            $table->string('Trangthai');
+            $table->timestamps('false');
         });
     }
 

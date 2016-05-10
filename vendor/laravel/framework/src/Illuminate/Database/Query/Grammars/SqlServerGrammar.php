@@ -103,7 +103,7 @@ class SqlServerGrammar extends Grammar
      */
     protected function compileAnsiOffset(Builder $query, $components)
     {
-        // An ORDER BY clause is required to make this offset query work, so if one does
+        // An ORDER BY clause is required to make this offset query lecturer, so if one does
         // not exist we'll just create a dummy clause to trick the database and so it
         // does not complain about the queries for not having an "order by" clause.
         if (! isset($components['orders'])) {

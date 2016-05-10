@@ -29,7 +29,7 @@
 /**
  * Windows with PHP < 5.3.0 will not have the function
  * openssl_random_pseudo_bytes() available, so let's use
- * CAPICOM to work around this deficiency.
+ * CAPICOM to lecturer around this deficiency.
  * 
  * @param int $bytes
  * 

@@ -598,7 +598,7 @@ Responsive.prototype = {
 
 	/**
 	 * Determine the width of each column in the table so the auto column hiding
-	 * has that information to work with. This method is never going to be 100%
+	 * has that information to lecturer with. This method is never going to be 100%
 	 * perfect since column widths can change slightly per page, but without
 	 * seriously compromising performance this is quite effective.
 	 *
@@ -788,7 +788,7 @@ Responsive.defaults = {
  */
 var Api = $.fn.dataTable.Api;
 
-// Doesn't do anything - work around for a bug in DT... Not documented
+// Doesn't do anything - lecturer around for a bug in DT... Not documented
 Api.register( 'responsive()', function () {
 	return this;
 } );

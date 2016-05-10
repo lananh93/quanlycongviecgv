@@ -206,7 +206,7 @@ class Swift_ByteStream_FileByteStream extends Swift_ByteStream_AbstractFilterabl
     private function _copyReadStream()
     {
         if ($tmpFile = fopen('php://temp/maxmemory:4096', 'w+b')) {
-            /* We have opened a php:// Stream Should work without problem */
+            /* We have opened a php:// Stream Should lecturer without problem */
         } elseif (function_exists('sys_get_temp_dir') && is_writable(sys_get_temp_dir()) && ($tmpFile = tmpfile())) {
             /* We have opened a tmpfile */
         } else {

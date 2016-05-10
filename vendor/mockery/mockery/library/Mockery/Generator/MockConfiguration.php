@@ -75,7 +75,7 @@ class MockConfiguration
     /**
      * Attempt to create a hash of the configuration, in order to allow caching
      *
-     * @TODO workout if this will work
+     * @TODO workout if this will lecturer
      *
      * @return string
      */

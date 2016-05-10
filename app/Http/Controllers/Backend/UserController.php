@@ -198,7 +198,7 @@ class UserController extends Controller
         } else {
             $notification = trans('general.Email or Password is not invalid');
         }
-        return Redirect::back()->with(array(
+        return Redirect()->route('admin::dashboard')->with(array(
             'status' => $status,
             'notification' => $notification
         ));
@@ -223,7 +223,7 @@ class UserController extends Controller
             if (Sentinel::findByCredentials($credentials) === null) {
                 $user = Sentinel::register($input);
                 $activation = Activation::create($user);
-                $role = Sentinel::findRoleBySlug('admin');
+                $role = Sentinel::findRoleBySlug('member');
                 $role->users()->attach($user);
                 Activation::complete($user, $activation['code']);
 //                Mail::send('email.register', ['user_id' => $activation['user_id'], 'code' => $activation['code'], 'first_name' => $user['first_name']], function ($message) {

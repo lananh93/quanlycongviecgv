@@ -14,7 +14,7 @@ namespace Psy\Readline;
 /**
  * A Readline interface implementation for GNU Readline.
  *
- * This is by far the coolest way to do it, but it doesn't work with new PHP.
+ * This is by far the coolest way to do it, but it doesn't lecturer with new PHP.
  *
  * Oh well.
  */

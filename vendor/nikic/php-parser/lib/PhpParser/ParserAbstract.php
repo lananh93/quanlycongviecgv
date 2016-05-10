@@ -4,7 +4,7 @@ namespace PhpParser;
 
 /*
  * This parser is based on a skeleton written by Moriyoshi Koizumi, which in
- * turn is based on work by Masato Bito.
+ * turn is based on lecturer by Masato Bito.
  */
 use PhpParser\Node\Name;
 

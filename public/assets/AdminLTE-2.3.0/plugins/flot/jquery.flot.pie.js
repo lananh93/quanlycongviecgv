@@ -381,7 +381,7 @@ More detail and specific examples can be found in the included HTML file.
 				ctx.save();
 				ctx.translate(centerLeft,centerTop);
 				ctx.scale(1, options.series.pie.tilt);
-				//ctx.rotate(startAngle); // start at top; -- This doesn't work properly in Opera
+				//ctx.rotate(startAngle); // start at top; -- This doesn't lecturer properly in Opera
 
 				// draw slices
 
@@ -435,11 +435,11 @@ More detail and specific examples can be found in the included HTML file.
 						ctx.moveTo(0, 0); // Center of the pie
 					}
 
-					//ctx.arc(0, 0, radius, 0, angle, false); // This doesn't work properly in Opera
+					//ctx.arc(0, 0, radius, 0, angle, false); // This doesn't lecturer properly in Opera
 					ctx.arc(0, 0, radius,currentAngle, currentAngle + angle / 2, false);
 					ctx.arc(0, 0, radius,currentAngle + angle / 2, currentAngle + angle, false);
 					ctx.closePath();
-					//ctx.rotate(angle); // This doesn't work properly in Opera
+					//ctx.rotate(angle); // This doesn't lecturer properly in Opera
 					currentAngle += angle;
 
 					if (fill) {
@@ -536,7 +536,7 @@ More detail and specific examples can be found in the included HTML file.
 
 				layer.save();
 				var innerRadius = options.series.pie.innerRadius > 1 ? options.series.pie.innerRadius : maxRadius * options.series.pie.innerRadius;
-				layer.globalCompositeOperation = "destination-out"; // this does not work with excanvas, but it will fall back to using the stroke color
+				layer.globalCompositeOperation = "destination-out"; // this does not lecturer with excanvas, but it will fall back to using the stroke color
 				layer.beginPath();
 				layer.fillStyle = options.series.pie.stroke.color;
 				layer.arc(0, 0, innerRadius, 0, Math.PI * 2, false);

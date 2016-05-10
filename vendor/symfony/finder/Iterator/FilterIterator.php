@@ -40,7 +40,7 @@ abstract class FilterIterator extends \FilterIterator
             $innerIterator = $iterator->getInnerIterator();
 
             if ($innerIterator instanceof RecursiveDirectoryIterator) {
-                // this condition is necessary for iterators to work properly with non-local filesystems like ftp
+                // this condition is necessary for iterators to lecturer properly with non-local filesystems like ftp
                 if ($innerIterator->isRewindable()) {
                     $innerIterator->next();
                     $innerIterator->rewind();

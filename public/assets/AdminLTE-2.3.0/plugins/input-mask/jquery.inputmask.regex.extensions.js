@@ -33,7 +33,7 @@ Allows for using regular expressions as a mask
 
                             opts.regexTokens = [];
 
-                            // The tokenizer regex does most of the tokenization grunt work
+                            // The tokenizer regex does most of the tokenization grunt lecturer
                             while (match = opts.tokenizer.exec(opts.regex)) {
                                 m = match[0];
                                 switch (m.charAt(0)) {

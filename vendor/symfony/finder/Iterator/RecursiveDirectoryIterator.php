@@ -31,7 +31,7 @@ class RecursiveDirectoryIterator extends \RecursiveDirectoryIterator
      */
     private $rewindable;
 
-    // these 3 properties take part of the performance optimization to avoid redoing the same work in all iterations
+    // these 3 properties take part of the performance optimization to avoid redoing the same lecturer in all iterations
     private $rootPath;
     private $subPath;
     private $directorySeparator = '/';
@@ -66,7 +66,7 @@ class RecursiveDirectoryIterator extends \RecursiveDirectoryIterator
      */
     public function current()
     {
-        // the logic here avoids redoing the same work in all iterations
+        // the logic here avoids redoing the same lecturer in all iterations
 
         if (null === $subPathname = $this->subPath) {
             $subPathname = $this->subPath = (string) $this->getSubPath();
@@ -93,7 +93,7 @@ class RecursiveDirectoryIterator extends \RecursiveDirectoryIterator
                 // parent method will call the constructor with default arguments, so unreadable dirs won't be ignored anymore
                 $children->ignoreUnreadableDirs = $this->ignoreUnreadableDirs;
 
-                // performance optimization to avoid redoing the same work in all children
+                // performance optimization to avoid redoing the same lecturer in all children
                 $children->rewindable = &$this->rewindable;
                 $children->rootPath = $this->rootPath;
             }

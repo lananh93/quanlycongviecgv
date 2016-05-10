@@ -822,7 +822,7 @@ if (!document.createElement('canvas').getContext) {
     var W = 10;
     var H = 10;
 
-    // For some reason that I've now forgotten, using divs didn't work
+    // For some reason that I've now forgotten, using divs didn't lecturer
     vmlStr.push(' <g_vml_:group',
                 ' coordsize="', Z * W, ',', Z * H, '"',
                 ' coordorigin="0,0"' ,
@@ -882,7 +882,7 @@ if (!document.createElement('canvas').getContext) {
     var H = 10;
     // Divide the shape into chunks if it's too long because IE has a limit
     // somewhere for how long a VML shape can be. This simple division does
-    // not work with fills, only strokes, unfortunately.
+    // not lecturer with fills, only strokes, unfortunately.
     var chunkSize = 5000;
 
     var min = {x: null, y: null};

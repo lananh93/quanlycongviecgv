@@ -7,6 +7,9 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'CreateCongviecTable' => $baseDir . '/database/migrations/2016_05_04_013814_create_congviec_table.php',
+    'CreateGdsTable' => $baseDir . '/database/migrations/2016_05_09_230257_create_gds_table.php',
+    'CreateMonhocsTable' => $baseDir . '/database/migrations/2016_05_09_223840_create_monhocs_table.php',
+    'CreateTacvugdsTable' => $baseDir . '/database/migrations/2016_05_09_232249_create_tacvugds_table.php',
     'DatabaseSeeder' => $baseDir . '/database/seeds/DatabaseSeeder.php',
     'File_Iterator' => $vendorDir . '/phpunit/php-file-iterator/src/Iterator.php',
     'File_Iterator_Facade' => $vendorDir . '/phpunit/php-file-iterator/src/Facade.php',

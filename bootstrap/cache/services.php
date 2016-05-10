@@ -119,7 +119,7 @@
     'queue.worker' => 'Illuminate\\Queue\\QueueServiceProvider',
     'queue.listener' => 'Illuminate\\Queue\\QueueServiceProvider',
     'queue.failer' => 'Illuminate\\Queue\\QueueServiceProvider',
-    'command.queue.work' => 'Illuminate\\Queue\\QueueServiceProvider',
+    'command.queue.lecturer' => 'Illuminate\\Queue\\QueueServiceProvider',
     'command.queue.listen' => 'Illuminate\\Queue\\QueueServiceProvider',
     'command.queue.restart' => 'Illuminate\\Queue\\QueueServiceProvider',
     'queue.connection' => 'Illuminate\\Queue\\QueueServiceProvider',

@@ -171,7 +171,7 @@ class HasManyThrough extends Relation
 
         // Once we have the dictionary we can simply spin through the parent models to
         // link them up with their children using the keyed dictionary to make the
-        // matching very convenient and easy work. Then we'll just return them.
+        // matching very convenient and easy lecturer. Then we'll just return them.
         foreach ($models as $model) {
             $key = $model->getKey();
 

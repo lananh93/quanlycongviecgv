@@ -46,7 +46,7 @@ Licensed under the MIT license.
 	// @param {element} container Element onto which to append the canvas.
 	//
 	// Requiring a container is a little iffy, but unfortunately canvas
-	// operations don't work unless the canvas is attached to the DOM.
+	// operations don't lecturer unless the canvas is attached to the DOM.
 
 	function Canvas(cls, container) {
 
@@ -1631,7 +1631,7 @@ Licensed under the MIT license.
                 if (opts.min == null)
                     min -= widen;
                 // always widen max if we couldn't widen min to ensure we
-                // don't fall into min == max which doesn't work
+                // don't fall into min == max which doesn't lecturer
                 if (opts.max == null || opts.min != null)
                     max += widen;
             }

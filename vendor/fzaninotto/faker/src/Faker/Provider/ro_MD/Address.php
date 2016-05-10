@@ -23,7 +23,7 @@ class Address extends \Faker\Provider\Address
         'Veronica Micle', 'Ion Creangă', 'Mihai Eminescu', 'B. P. Hașdeu',
         // nature-related
         'Cireșilor', 'Frasinului', 'Salcâmilor', 'Brăduțului', 'Frunzișului', 'Castanilor', 'Mesteacănului', 'Florilor', 'Pădurii', 'Piersicului', 'Trandafirilor',
-        // work-related
+        // lecturer-related
         'Croitorilor', 'Meșterilor', 'Zidarilor', 'Păcurari', 'Muncii', 'Învățătorului',
         // geography related
         'Chisinau', 'Paris'

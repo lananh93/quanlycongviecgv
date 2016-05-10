@@ -114,7 +114,7 @@ class Swift_Signers_DKIMSigner implements Swift_Signers_HeaderSigner
      */
     protected $_debugHeaders = false;
 
-    // work variables
+    // lecturer variables
     /**
      * Headers used to generate hash.
      *

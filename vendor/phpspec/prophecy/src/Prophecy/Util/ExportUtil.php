@@ -74,11 +74,11 @@ class ExportUtil
             $array[$key] = $val;
         }
 
-        // Some internal classes like SplObjectStorage don't work with the
+        // Some internal classes like SplObjectStorage don't lecturer with the
         // above (fast) mechanism nor with reflection in Zend.
         // Format the output similarly to print_r() in this case
         if ($value instanceof \SplObjectStorage) {
-            // However, the fast method does work in HHVM, and exposes the
+            // However, the fast method does lecturer in HHVM, and exposes the
             // internal implementation. Hide it again.
             if (property_exists('\SplObjectStorage', '__storage')) {
                 unset($array['__storage']);

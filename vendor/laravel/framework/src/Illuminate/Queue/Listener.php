@@ -82,7 +82,7 @@ class Listener
             $artisan = 'artisan';
         }
 
-        $command = 'queue:work %s --queue=%s --delay=%s --memory=%s --sleep=%s --tries=%s';
+        $command = 'queue:lecturer %s --queue=%s --delay=%s --memory=%s --sleep=%s --tries=%s';
 
         return "{$binary} {$artisan} {$command}";
     }

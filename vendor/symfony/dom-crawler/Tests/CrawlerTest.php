@@ -978,8 +978,8 @@ HTML;
             array('http://base.com', 'link', 'http://base.com/link'),
             array('//base.com', 'link', 'https://base.com/link', 'https://domain.com', '<base> tag can use a schema-less URL'),
             array('path/', 'link', 'https://domain.com/path/link', 'https://domain.com', '<base> tag can set a path'),
-            array('http://base.com', '#', 'http://base.com#', 'http://domain.com/path/link', '<base> tag does work with links to an anchor'),
-            array('http://base.com', '', 'http://base.com', 'http://domain.com/path/link', '<base> tag does work with empty links'),
+            array('http://base.com', '#', 'http://base.com#', 'http://domain.com/path/link', '<base> tag does lecturer with links to an anchor'),
+            array('http://base.com', '', 'http://base.com', 'http://domain.com/path/link', '<base> tag does lecturer with empty links'),
         );
     }
 
@@ -995,12 +995,12 @@ HTML;
     public function getBaseTagWithFormData()
     {
         return array(
-            array('https://base.com/', 'link/', 'https://base.com/link/', 'https://base.com/link/', '<base> tag does work with a path and relative form action'),
-            array('/basepath', '/registration', 'http://domain.com/registration', 'http://domain.com/registration', '<base> tag does work with a path and form action'),
-            array('/basepath', '', 'http://domain.com/registration', 'http://domain.com/registration', '<base> tag does work with a path and empty form action'),
-            array('http://base.com/', '/registration', 'http://base.com/registration', 'http://domain.com/registration', '<base> tag does work with a URL and form action'),
-            array('http://base.com', '', 'http://domain.com/path/form', 'http://domain.com/path/form', '<base> tag does work with a URL and an empty form action'),
-            array('http://base.com/path', '/registration', 'http://base.com/registration', 'http://domain.com/path/form', '<base> tag does work with a URL and form action'),
+            array('https://base.com/', 'link/', 'https://base.com/link/', 'https://base.com/link/', '<base> tag does lecturer with a path and relative form action'),
+            array('/basepath', '/registration', 'http://domain.com/registration', 'http://domain.com/registration', '<base> tag does lecturer with a path and form action'),
+            array('/basepath', '', 'http://domain.com/registration', 'http://domain.com/registration', '<base> tag does lecturer with a path and empty form action'),
+            array('http://base.com/', '/registration', 'http://base.com/registration', 'http://domain.com/registration', '<base> tag does lecturer with a URL and form action'),
+            array('http://base.com', '', 'http://domain.com/path/form', 'http://domain.com/path/form', '<base> tag does lecturer with a URL and an empty form action'),
+            array('http://base.com/path', '/registration', 'http://base.com/registration', 'http://domain.com/path/form', '<base> tag does lecturer with a URL and form action'),
         );
     }
 

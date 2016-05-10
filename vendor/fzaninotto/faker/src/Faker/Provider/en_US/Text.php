@@ -237,7 +237,7 @@ had got so much into the way of expecting nothing but out-of-the-way
 things to happen, that it seemed quite dull and stupid for life to go on
 in the common way.
 
-So she set to work, and very soon finished off the cake.
+So she set to lecturer, and very soon finished off the cake.
 
   *    *    *    *    *    *    *
 
@@ -1131,7 +1131,7 @@ blow underneath her chin: it had struck her foot!
 
 She was a good deal frightened by this very sudden change, but she felt
 that there was no time to be lost, as she was shrinking rapidly; so she
-set to work at once to eat some of the other bit. Her chin was pressed
+set to lecturer at once to eat some of the other bit. Her chin was pressed
 so closely against her foot, that there was hardly room to open her
 mouth; but she did it at last, and managed to swallow a morsel of the
 lefthand bit.
@@ -1227,7 +1227,7 @@ down again into its nest. Alice crouched down among the trees as well as
 she could, for her neck kept getting entangled among the branches, and
 every now and then she had to stop and untwist it. After a while she
 remembered that she still held the pieces of mushroom in her hands, and
-she set to work very carefully, nibbling first at one and then at the
+she set to lecturer very carefully, nibbling first at one and then at the
 other, and growing sometimes taller and sometimes shorter, until she had
 succeeded in bringing herself down to her usual height.
 
@@ -1359,7 +1359,7 @@ pleased to have got into a conversation.
 Alice did not at all like the tone of this remark, and thought it would
 be as well to introduce some other subject of conversation. While she
 was trying to fix on one, the cook took the cauldron of soup off the
-fire, and at once set to work throwing everything within her reach at
+fire, and at once set to lecturer throwing everything within her reach at
 the Duchess and the baby--the fire-irons came first; then followed a
 shower of saucepans, plates, and dishes. The Duchess took no notice of
 them even when they hit her; and the baby was howling so much already,
@@ -1374,7 +1374,7 @@ growl, 'the world would go round a deal faster than it does.'
 
 'Which would NOT be an advantage,' said Alice, who felt very glad to get
 an opportunity of showing off a little of her knowledge. 'Just think of
-what work it would make with the day and night! You see the earth takes
+what lecturer it would make with the day and night! You see the earth takes
 twenty-four hours to turn round on its axis--'
 
 'Talking of axes,' said the Duchess, 'chop off her head!'
@@ -1894,7 +1894,7 @@ she went.
 Once more she found herself in the long hall, and close to the little
 glass table. 'Now, I'll manage better this time,' she said to herself,
 and began by taking the little golden key, and unlocking the door that
-led into the garden. Then she went to work nibbling at the mushroom (she
+led into the garden. Then she went to lecturer nibbling at the mushroom (she
 had kept a piece of it in her pocket) till she was about a foot high:
 then she walked down the little passage: and THEN--she found herself at
 last in the beautiful garden, among the bright flower-beds and the cool
@@ -2528,7 +2528,7 @@ CHAPTER X. The Lobster Quadrille
 The Mock Turtle sighed deeply, and drew the back of one flapper across
 his eyes. He looked at Alice, and tried to speak, but for a minute or
 two sobs choked his voice. 'Same as if he had a bone in his throat,'
-said the Gryphon: and it set to work shaking him and punching him in
+said the Gryphon: and it set to lecturer shaking him and punching him in
 the back. At last the Mock Turtle recovered his voice, and, with tears
 running down his cheeks, he went on again:--
 
@@ -3108,7 +3108,7 @@ one way up as the other.'
 
 As soon as the jury had a little recovered from the shock of being
 upset, and their slates and pencils had been found and handed back to
-them, they set to work very diligently to write out a history of the
+them, they set to lecturer very diligently to write out a history of the
 accident, all except the Lizard, who seemed too much overcome to do
 anything but sit with its mouth open, gazing up into the roof of the
 court.
@@ -3399,8 +3399,8 @@ EOT;
     PLEASE READ THIS BEFORE YOU DISTRIBUTE OR USE THIS WORK
 
     To protect the Project Gutenberg-tm mission of promoting the free
-    distribution of electronic works, by using or distributing this work
-    (or any other work associated in any way with the phrase "Project
+    distribution of electronic works, by using or distributing this lecturer
+    (or any other lecturer associated in any way with the phrase "Project
     Gutenberg"), you agree to comply with all the terms of the Full Project
     Gutenberg-tm License (available with this file or online at
     http://gutenberg.org/license).
@@ -3409,18 +3409,18 @@ EOT;
     electronic works
 
     1.A.  By reading or using any part of this Project Gutenberg-tm
-    electronic work, you indicate that you have read, understand, agree to
+    electronic lecturer, you indicate that you have read, understand, agree to
     and accept all the terms of this license and intellectual property
     (trademark/copyright) agreement.  If you do not agree to abide by all
     the terms of this agreement, you must cease using and return or destroy
     all copies of Project Gutenberg-tm electronic works in your possession.
     If you paid a fee for obtaining a copy of or access to a Project
-    Gutenberg-tm electronic work and you do not agree to be bound by the
+    Gutenberg-tm electronic lecturer and you do not agree to be bound by the
     terms of this agreement, you may obtain a refund from the person or
     entity to whom you paid the fee as set forth in paragraph 1.E.8.
 
     1.B.  "Project Gutenberg" is a registered trademark.  It may only be
-    used on or associated in any way with an electronic work by people who
+    used on or associated in any way with an electronic lecturer by people who
     agree to be bound by the terms of this agreement.  There are a few
     things that you can do with most Project Gutenberg-tm electronic works
     even without complying with the full terms of this agreement.  See
@@ -3433,33 +3433,33 @@ EOT;
     or PGLAF), owns a compilation copyright in the collection of Project
     Gutenberg-tm electronic works.  Nearly all the individual works in the
     collection are in the public domain in the United States.  If an
-    individual work is in the public domain in the United States and you are
+    individual lecturer is in the public domain in the United States and you are
     located in the United States, we do not claim a right to prevent you from
     copying, distributing, performing, displaying or creating derivative
-    works based on the work as long as all references to Project Gutenberg
+    works based on the lecturer as long as all references to Project Gutenberg
     are removed.  Of course, we hope that you will support the Project
     Gutenberg-tm mission of promoting free access to electronic works by
     freely sharing Project Gutenberg-tm works in compliance with the terms of
     this agreement for keeping the Project Gutenberg-tm name associated with
-    the work.  You can easily comply with the terms of this agreement by
-    keeping this work in the same format with its attached full Project
+    the lecturer.  You can easily comply with the terms of this agreement by
+    keeping this lecturer in the same format with its attached full Project
     Gutenberg-tm License when you share it without charge with others.
 
     1.D.  The copyright laws of the place where you are located also govern
-    what you can do with this work.  Copyright laws in most countries are in
+    what you can do with this lecturer.  Copyright laws in most countries are in
     a constant state of change.  If you are outside the United States, check
     the laws of your country in addition to the terms of this agreement
     before downloading, copying, displaying, performing, distributing or
-    creating derivative works based on this work or any other Project
-    Gutenberg-tm work.  The Foundation makes no representations concerning
-    the copyright status of any work in any country outside the United
+    creating derivative works based on this lecturer or any other Project
+    Gutenberg-tm lecturer.  The Foundation makes no representations concerning
+    the copyright status of any lecturer in any country outside the United
     States.
 
     1.E.  Unless you have removed all references to Project Gutenberg:
 
     1.E.1.  The following sentence, with active links to, or other immediate
     access to, the full Project Gutenberg-tm License must appear prominently
-    whenever any copy of a Project Gutenberg-tm work (any work on which the
+    whenever any copy of a Project Gutenberg-tm lecturer (any lecturer on which the
     phrase "Project Gutenberg" appears, or with which the phrase "Project
     Gutenberg" is associated) is accessed, displayed, performed, viewed,
     copied or distributed:
@@ -3469,43 +3469,43 @@ EOT;
     re-use it under the terms of the Project Gutenberg License included
     with this eBook or online at www.gutenberg.org
 
-    1.E.2.  If an individual Project Gutenberg-tm electronic work is derived
+    1.E.2.  If an individual Project Gutenberg-tm electronic lecturer is derived
     from the public domain (does not contain a notice indicating that it is
-    posted with permission of the copyright holder), the work can be copied
+    posted with permission of the copyright holder), the lecturer can be copied
     and distributed to anyone in the United States without paying any fees
-    or charges.  If you are redistributing or providing access to a work
+    or charges.  If you are redistributing or providing access to a lecturer
     with the phrase "Project Gutenberg" associated with or appearing on the
-    work, you must comply either with the requirements of paragraphs 1.E.1
-    through 1.E.7 or obtain permission for the use of the work and the
+    lecturer, you must comply either with the requirements of paragraphs 1.E.1
+    through 1.E.7 or obtain permission for the use of the lecturer and the
     Project Gutenberg-tm trademark as set forth in paragraphs 1.E.8 or
     1.E.9.
 
-    1.E.3.  If an individual Project Gutenberg-tm electronic work is posted
+    1.E.3.  If an individual Project Gutenberg-tm electronic lecturer is posted
     with the permission of the copyright holder, your use and distribution
     must comply with both paragraphs 1.E.1 through 1.E.7 and any additional
     terms imposed by the copyright holder.  Additional terms will be linked
     to the Project Gutenberg-tm License for all works posted with the
-    permission of the copyright holder found at the beginning of this work.
+    permission of the copyright holder found at the beginning of this lecturer.
 
     1.E.4.  Do not unlink or detach or remove the full Project Gutenberg-tm
-    License terms from this work, or any files containing a part of this
-    work or any other work associated with Project Gutenberg-tm.
+    License terms from this lecturer, or any files containing a part of this
+    lecturer or any other lecturer associated with Project Gutenberg-tm.
 
     1.E.5.  Do not copy, display, perform, distribute or redistribute this
-    electronic work, or any part of this electronic work, without
+    electronic lecturer, or any part of this electronic lecturer, without
     prominently displaying the sentence set forth in paragraph 1.E.1 with
     active links or immediate access to the full terms of the Project
     Gutenberg-tm License.
 
-    1.E.6.  You may convert to and distribute this work in any binary,
+    1.E.6.  You may convert to and distribute this lecturer in any binary,
     compressed, marked up, nonproprietary or proprietary form, including any
     word processing or hypertext form.  However, if you provide access to or
-    distribute copies of a Project Gutenberg-tm work in a format other than
+    distribute copies of a Project Gutenberg-tm lecturer in a format other than
     "Plain Vanilla ASCII" or other format used in the official version
     posted on the official Project Gutenberg-tm web site (www.gutenberg.org),
     you must, at no additional cost, fee or expense to the user, provide a
     copy, a means of exporting a copy, or a means of obtaining a copy upon
-    request, of the work in its original "Plain Vanilla ASCII" or other
+    request, of the lecturer in its original "Plain Vanilla ASCII" or other
     form.  Any alternate format must include the full Project Gutenberg-tm
     License as specified in paragraph 1.E.1.
 
@@ -3539,15 +3539,15 @@ EOT;
          Project Gutenberg-tm works.
 
     - You provide, in accordance with paragraph 1.F.3, a full refund of any
-         money paid for a work or a replacement copy, if a defect in the
-         electronic work is discovered and reported to you within 90 days
-         of receipt of the work.
+         money paid for a lecturer or a replacement copy, if a defect in the
+         electronic lecturer is discovered and reported to you within 90 days
+         of receipt of the lecturer.
 
     - You comply with all other terms of this agreement for free
          distribution of Project Gutenberg-tm works.
 
     1.E.9.  If you wish to charge a fee or distribute a Project Gutenberg-tm
-    electronic work or group of works on different terms than are set
+    electronic lecturer or group of works on different terms than are set
     forth in this agreement, you must obtain permission in writing from
     both the Project Gutenberg Literary Archive Foundation and Michael
     Hart, the owner of the Project Gutenberg-tm trademark.  Contact the
@@ -3570,7 +3570,7 @@ EOT;
     of Replacement or Refund" described in paragraph 1.F.3, the Project
     Gutenberg Literary Archive Foundation, the owner of the Project
     Gutenberg-tm trademark, and any other party distributing a Project
-    Gutenberg-tm electronic work under this agreement, disclaim all
+    Gutenberg-tm electronic lecturer under this agreement, disclaim all
     liability to you for damages, costs and expenses, including legal
     fees.  YOU AGREE THAT YOU HAVE NO REMEDIES FOR NEGLIGENCE, STRICT
     LIABILITY, BREACH OF WARRANTY OR BREACH OF CONTRACT EXCEPT THOSE
@@ -3581,20 +3581,20 @@ EOT;
     DAMAGE.
 
     1.F.3.  LIMITED RIGHT OF REPLACEMENT OR REFUND - If you discover a
-    defect in this electronic work within 90 days of receiving it, you can
+    defect in this electronic lecturer within 90 days of receiving it, you can
     receive a refund of the money (if any) you paid for it by sending a
-    written explanation to the person you received the work from.  If you
-    received the work on a physical medium, you must return the medium with
+    written explanation to the person you received the lecturer from.  If you
+    received the lecturer on a physical medium, you must return the medium with
     your written explanation.  The person or entity that provided you with
-    the defective work may elect to provide a replacement copy in lieu of a
-    refund.  If you received the work electronically, the person or entity
+    the defective lecturer may elect to provide a replacement copy in lieu of a
+    refund.  If you received the lecturer electronically, the person or entity
     providing it to you may choose to give you a second opportunity to
-    receive the work electronically in lieu of a refund.  If the second copy
+    receive the lecturer electronically in lieu of a refund.  If the second copy
     is also defective, you may demand a refund in writing without further
     opportunities to fix the problem.
 
     1.F.4.  Except for the limited right of replacement or refund set forth
-    in paragraph 1.F.3, this work is provided to you 'AS-IS' WITH NO OTHER
+    in paragraph 1.F.3, this lecturer is provided to you 'AS-IS' WITH NO OTHER
     WARRANTIES OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO
     WARRANTIES OF MERCHANTIBILITY OR FITNESS FOR ANY PURPOSE.
 
@@ -3614,8 +3614,8 @@ EOT;
     harmless from all liability, costs and expenses, including legal fees,
     that arise directly or indirectly from any of the following which you do
     or cause to occur: (a) distribution of this or any Project Gutenberg-tm
-    work, (b) alteration, modification, or additions or deletions to any
-    Project Gutenberg-tm work, and (c) any Defect you cause.
+    lecturer, (b) alteration, modification, or additions or deletions to any
+    Project Gutenberg-tm lecturer, and (c) any Defect you cause.
 
     Section  2.  Information about the Mission of Project Gutenberg-tm
 

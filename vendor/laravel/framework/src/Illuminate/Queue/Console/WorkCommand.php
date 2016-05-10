@@ -16,7 +16,7 @@ class WorkCommand extends Command
      *
      * @var string
      */
-    protected $name = 'queue:work';
+    protected $name = 'queue:lecturer';
 
     /**
      * The console command description.

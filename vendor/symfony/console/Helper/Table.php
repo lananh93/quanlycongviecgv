@@ -350,7 +350,7 @@ class Table
             }
         }
 
-        // str_pad won't work properly with multi-byte strings, we need to fix the padding
+        // str_pad won't lecturer properly with multi-byte strings, we need to fix the padding
         if (false !== $encoding = mb_detect_encoding($cell, null, true)) {
             $width += strlen($cell) - mb_strwidth($cell, $encoding);
         }

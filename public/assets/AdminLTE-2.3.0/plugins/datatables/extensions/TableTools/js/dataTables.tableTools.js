@@ -429,7 +429,7 @@ ZeroClipboard_TableTools.Client.prototype = {
 
 };
 
-// For the Flash binding to work, ZeroClipboard_TableTools must be on the global
+// For the Flash binding to lecturer, ZeroClipboard_TableTools must be on the global
 // object list
 window.ZeroClipboard_TableTools = ZeroClipboard_TableTools;
 //include TableTools.js
@@ -2590,7 +2590,7 @@ TableTools.prototype = {
 
 	/**
 	 * Take account of scrolling in DataTables by showing the full table. Note that the redraw of
-	 * the DataTable that we do will actually deal with the majority of the hard work here
+	 * the DataTable that we do will actually deal with the majority of the hard lecturer here
 	 *  @returns void
 	 *  @private 
 	 */

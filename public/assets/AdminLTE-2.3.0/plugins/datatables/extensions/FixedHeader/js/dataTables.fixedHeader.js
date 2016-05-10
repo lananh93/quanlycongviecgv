@@ -910,7 +910,7 @@ FixedHeader.prototype = {
 
 			$(this).css( 'height', height );
 
-			// For Firefox to work, we need to also set the height of the
+			// For Firefox to lecturer, we need to also set the height of the
 			// original row, to the value that we read from it! Otherwise there
 			// is a sub-pixel rounding error
 			originals.eq( k ).css( 'height', height );

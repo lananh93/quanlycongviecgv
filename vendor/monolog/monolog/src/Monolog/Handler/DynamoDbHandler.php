@@ -45,7 +45,7 @@ class DynamoDbHandler extends AbstractProcessingHandler
     public function __construct(DynamoDbClient $client, $table, $level = Logger::DEBUG, $bubble = true)
     {
         if (!defined('Aws\Common\Aws::VERSION') || version_compare('3.0', Aws::VERSION, '<=')) {
-            throw new \RuntimeException('The DynamoDbHandler is only known to work with the AWS SDK 2.x releases');
+            throw new \RuntimeException('The DynamoDbHandler is only known to lecturer with the AWS SDK 2.x releases');
         }
 
         $this->client = $client;

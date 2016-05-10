@@ -2596,7 +2596,7 @@ EOT;
 
     Information about Project Gutenberg (one page)
 
-    We produce about two million dollars for each hour we work.  The
+    We produce about two million dollars for each hour we lecturer.  The
     time it takes us, a rather conservative estimate, is fifty hours
     to get any eBook selected, entered, proofread, edited, copyright
     searched and analyzed, the copyright letters written, etc.   Our
@@ -2728,10 +2728,10 @@ EOT;
 
     ABOUT PROJECT GUTENBERG-TM EBOOKS
     This PROJECT GUTENBERG-tm eBook, like most PROJECT GUTENBERG-tm eBooks,
-    is a "public domain" work distributed by Professor Michael S. Hart
+    is a "public domain" lecturer distributed by Professor Michael S. Hart
     through the Project Gutenberg Association (the "Project").
     Among other things, this means that no one owns a United States copyright
-    on or for this work, so the Project (and you!) can copy and
+    on or for this lecturer, so the Project (and you!) can copy and
     distribute it in the United States without permission and
     without paying copyright royalties. Special rules, set forth
     below, apply if you wish to copy and distribute this eBook
@@ -2809,7 +2809,7 @@ EOT;
 
          [*]  The eBook, when displayed, is clearly readable, and
               does *not* contain characters other than those
-              intended by the author of the work, although tilde
+              intended by the author of the lecturer, although tilde
               (~), asterisk (*) and underline (_) characters may
               be used to convey punctuation intended by the
               author, and additional characters may be used to
@@ -2837,7 +2837,7 @@ EOT;
          the 60 days following each date you prepare (or were
          legally required to prepare) your annual (or equivalent
          periodic) tax return.  Please contact us beforehand to
-         let us know your plans and to work out the details.
+         let us know your plans and to lecturer out the details.
 
     WHAT IF YOU *WANT* TO SEND MONEY EVEN IF YOU DON'T HAVE TO?
     Project Gutenberg is dedicated to increasing the number of

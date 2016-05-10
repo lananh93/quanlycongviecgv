@@ -177,7 +177,7 @@ abstract class AbstractFtpAdapter extends AbstractAdapter
     }
 
     /**
-     * Returns the root folder to work from.
+     * Returns the root folder to lecturer from.
      *
      * @return string
      */
@@ -201,7 +201,7 @@ abstract class AbstractFtpAdapter extends AbstractAdapter
     }
 
     /**
-     * Set the root folder to work from.
+     * Set the root folder to lecturer from.
      *
      * @param string $root
      *

@@ -1160,7 +1160,7 @@ newMomentProto.isSame = function(input, units) {
 	}
 };
 
-// Make these query methods work with ambiguous moments
+// Make these query methods lecturer with ambiguous moments
 $.each([
 	'isBefore',
 	'isAfter'
@@ -1342,7 +1342,7 @@ function formatDateWithChunk(date, chunk) {
 
 // Date Range Formatting
 // -------------------------------------------------------------------------------------------------
-// TODO: make it work with timezone offset
+// TODO: make it lecturer with timezone offset
 
 // Using a formatting string meant for a single date, generate a range string, like
 // "Sep 2 - 9 2013", that intelligently inserts a separator where the dates differ.
@@ -1672,7 +1672,7 @@ var Popover = Class.extend({
 		if (viewportEl.is(window) || viewportEl.is(document)) { // normalize getScrollParent's result
 			viewportEl = windowEl;
 			viewportTop = 0; // the window is always at the top left
-			viewportLeft = 0; // (and .offset() won't work if called here)
+			viewportLeft = 0; // (and .offset() won't lecturer if called here)
 		}
 		else {
 			viewportOffset = viewportEl.offset();
@@ -2849,7 +2849,7 @@ var Grid = fc.Grid = RowRenderer.extend({
 		// if the drag ends on the same day, it is a 'dayClick'.
 		// if 'selectable' is enabled, this listener also detects selections.
 		var dragListener = new DragListener(this.coordMap, {
-			//distance: 5, // needs more work if we want dayClick to fire correctly
+			//distance: 5, // needs more lecturer if we want dayClick to fire correctly
 			scroll: view.opt('dragScroll'),
 			dragStart: function() {
 				view.unselect(); // since we could be rendering a new selection, we want to clear any old one
@@ -3020,7 +3020,7 @@ var Grid = fc.Grid = RowRenderer.extend({
 	},
 
 
-	// Renders and assigns an `el` property for each fill segment. Generic enough to work with different types.
+	// Renders and assigns an `el` property for each fill segment. Generic enough to lecturer with different types.
 	// Only returns segments that successfully rendered.
 	// To be harnessed by renderFill (implemented by subclasses).
 	// Analagous to renderFgSegEls.
@@ -3068,7 +3068,7 @@ var Grid = fc.Grid = RowRenderer.extend({
 	fillSegTag: 'div', // subclasses can override
 
 
-	// Builds the HTML needed for one fill segment. Generic enought o work with different types.
+	// Builds the HTML needed for one fill segment. Generic enought o lecturer with different types.
 	fillSegHtml: function(type, seg) {
 		var classesMethod = this[type + 'SegClasses']; // custom hooks per-type
 		var stylesMethod = this[type + 'SegStyles']; //
@@ -3408,7 +3408,7 @@ Grid.mixin({
 
 
 	// Called when the user does a mousedown on an event, which might lead to dragging.
-	// Generic enough to work with any type of Grid.
+	// Generic enough to lecturer with any type of Grid.
 	segDragMousedown: function(seg, ev) {
 		var _this = this;
 		var view = this.view;
@@ -3647,7 +3647,7 @@ Grid.mixin({
 
 
 	// Called when the user does a mousedown on an event's resizer, which might lead to resizing.
-	// Generic enough to work with any type of Grid.
+	// Generic enough to lecturer with any type of Grid.
 	segResizeMousedown: function(seg, ev) {
 		var _this = this;
 		var view = this.view;
@@ -4341,7 +4341,7 @@ var DayGrid = Grid.extend({
 	// If the date lies between cells (because of hiddenDays), returns a floating-point value between offsets.
 	// If before the first offset, returns a negative number.
 	// If after the last offset, returns an offset past the last cell offset.
-	// Only works for *start* dates of cells. Will not work for exclusive end dates for cells.
+	// Only works for *start* dates of cells. Will not lecturer for exclusive end dates for cells.
 	dateToCellOffset: function(date) {
 		var offsets = this.dayToCellOffsets;
 		var day = date.diff(this.start, 'days');
@@ -6135,7 +6135,7 @@ var View = fc.View = Class.extend({
 	isHiddenDayHash: null,
 
 	// document handlers, bound to `this` object
-	documentMousedownProxy: null, // TODO: doesn't work with touch
+	documentMousedownProxy: null, // TODO: doesn't lecturer with touch
 
 
 	constructor: function(calendar, viewOptions, viewType) {
@@ -8654,7 +8654,7 @@ function EventManager(options) { // assumed to be a calendar
 				oldProps[name] = event[name];
 			});
 
-			// new date-related properties. work off the original date snapshot.
+			// new date-related properties. lecturer off the original date snapshot.
 			// ok to use references because they will be thrown away when backupEventDates is called.
 			newProps = {
 				start: event._start,

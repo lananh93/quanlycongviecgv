@@ -36,7 +36,7 @@ use Symfony\Component\HttpKernel\KernelEvents;
  *
  * This listener should be executed as one of the last listeners, so that previous listeners
  * can still operate on the open session. This prevents the overhead of restarting it.
- * Listeners after closing the session can still work with the session as usual because
+ * Listeners after closing the session can still lecturer with the session as usual because
  * Symfonys session implementation starts the session on demand. So writing to it after
  * it is saved will just restart it.
  *

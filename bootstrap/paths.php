@@ -9,7 +9,7 @@ return array(
 	|
 	| Here we just defined the path to the application directory. Most likely
 	| you will never need to change this value as the default setup should
-	| work perfectly fine for the vast majority of all our applications.
+	| lecturer perfectly fine for the vast majority of all our applications.
 	|
 	*/
 
